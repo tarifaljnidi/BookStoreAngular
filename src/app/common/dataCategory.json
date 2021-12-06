@@ -1,0 +1,80 @@
+{
+    "_embedded": {
+        "bookCateogry": [
+            {
+                "id": 1,
+                "categoryName": "Web Development",
+                "_links": {
+                    "self": {
+                        "href": "http://localhost:5000/api/v1/book-category/1"
+                    },
+                    "bookCategory": {
+                        "href": "http://localhost:5000/api/v1/book-category/1"
+                    },
+                    "book": {
+                        "href": "http://localhost:5000/api/v1/book-category/1/book"
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "categoryName": "Programming",
+                "_links": {
+                    "self": {
+                        "href": "http://localhost:5000/api/v1/book-category/2"
+                    },
+                    "bookCategory": {
+                        "href": "http://localhost:5000/api/v1/book-category/2"
+                    },
+                    "book": {
+                        "href": "http://localhost:5000/api/v1/book-category/2/book"
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "categoryName": "Databases",
+                "_links": {
+                    "self": {
+                        "href": "http://localhost:5000/api/v1/book-category/3"
+                    },
+                    "bookCategory": {
+                        "href": "http://localhost:5000/api/v1/book-category/3"
+                    },
+                    "book": {
+                        "href": "http://localhost:5000/api/v1/book-category/3/book"
+                    }
+                }
+            },
+            {
+                "id": 4,
+                "categoryName": "Administration",
+                "_links": {
+                    "self": {
+                        "href": "http://localhost:5000/api/v1/book-category/4"
+                    },
+                    "bookCategory": {
+                        "href": "http://localhost:5000/api/v1/book-category/4"
+                    },
+                    "book": {
+                        "href": "http://localhost:5000/api/v1/book-category/4/book"
+                    }
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "http://localhost:5000/api/v1/book-category"
+        },
+        "profile": {
+            "href": "http://localhost:5000/api/v1/profile/book-category"
+        }
+    },
+    "page": {
+        "size": 20,
+        "totalElements": 4,
+        "totalPages": 1,
+        "number": 0
+    }
+}

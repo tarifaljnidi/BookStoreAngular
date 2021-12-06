@@ -7,7 +7,7 @@ export class Book {
   imageUrl: string;
   active: boolean;
   unitsInStock: number;
-  createdOn: Date;
-  updatedOn: Date;
+  createdOn: string;
+  updatedOn: string;
 
 }

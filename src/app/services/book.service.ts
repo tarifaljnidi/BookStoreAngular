@@ -10,8 +10,8 @@ import { BookCategory } from '../common/book-category';
 })
 export class BookService {
 
-  private baseUrl = "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books";
-  private categoryUrl = "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/book-category";
+  private baseUrl = "http://localhost:5000/api/v1/books";
+  private categoryUrl = "http://localhost:5000/api/v1/book-category";
 
   constructor(private httpClient: HttpClient) { }
 
@@ -26,11 +26,11 @@ export class BookService {
     map(response => response._embedded.bookCateogry)
   );
 }
-private getBooksList(searchUrl: string): Observable<Book[]> {
-  return this.httpClient.get<GetResponseBooks>(searchUrl).pipe(
-    map(response => response._embedded.books)
-  );
-}
+// private getBooksList(searchUrl: string): Observable<Book[]> {
+//   return this.httpClient.get<GetResponseBooks>(searchUrl).pipe(
+//     map(response => response._embedded.books)
+//   );
+// }
 
 //
 // searchBooks(keyword: string): Observable<Book[]>{

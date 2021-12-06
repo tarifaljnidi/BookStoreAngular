@@ -1,0 +1,247 @@
+{
+    "_embedded": {
+        "books": [
+            {
+                "id": "5",
+                "sku": "webdevelopment-100",
+                "name": "Python for SAS Users",
+                "description": "Business users familiar with Base SAS programming can now learn Python by example. You will learn via examples that map SAS programming constructs and coding patterns into their Python equivalents.",
+                "unitPrice": 600.00,
+                "imageUrl": "assets/images/webdevelopment/webdevelopment-100.jpg",
+                "active": true,
+                "unitsInStock": 100,
+                "createdOn": "2021-12-01T19:40:15.000+00:00",
+                "updatedOn": "2021-12-01T19:40:15.000+00:00",
+                "_links": {
+                    "self": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/5"
+                    },
+                    "book": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/5"
+                    },
+                    "category": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/5/category"
+                    }
+                }
+            },
+            {
+                "id": "15",
+                "sku": "webdevelopment-101",
+                "name": "Deep Learning with JavaScript",
+                "description": "Deep learning has transformed the fields of computer vision, image processing, and natural language applications.",
+                "unitPrice": 700.00,
+                "imageUrl": "assets/images/webdevelopment/webdevelopment-101.jpg",
+                "active": true,
+                "unitsInStock": 100,
+                "createdOn": "2021-12-01T19:40:15.000+00:00",
+                "updatedOn": "2021-12-01T19:40:15.000+00:00",
+                "_links": {
+                    "self": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/15"
+                    },
+                    "book": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/15"
+                    },
+                    "category": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/15/category"
+                    }
+                }
+            },
+            {
+                "id": "25",
+                "sku": "webdevelopment-102",
+                "name": "Clean Ruby",
+                "description": "Learn how to make better decisions and write cleaner Ruby code. This book shows you how to avoid messy code that is hard to test and which cripples productivity.",
+                "unitPrice": 800.00,
+                "imageUrl": "assets/images/webdevelopment/webdevelopment-102.jpg",
+                "active": true,
+                "unitsInStock": 100,
+                "createdOn": "2021-12-01T19:40:15.000+00:00",
+                "updatedOn": "2021-12-01T19:40:15.000+00:00",
+                "_links": {
+                    "self": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/25"
+                    },
+                    "book": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/25"
+                    },
+                    "category": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/25/category"
+                    }
+                }
+            },
+            {
+                "id": "35",
+                "sku": "webdevelopment-103",
+                "name": "Practices of the Python Pro",
+                "description": "Professional developers know the many benefits of writing application code that’s clean, well-organized, and easy to maintain.",
+                "unitPrice": 900.00,
+                "imageUrl": "assets/images/webdevelopment/webdevelopment-103.jpg",
+                "active": true,
+                "unitsInStock": 100,
+                "createdOn": "2021-12-01T19:40:15.000+00:00",
+                "updatedOn": "2021-12-01T19:40:15.000+00:00",
+                "_links": {
+                    "self": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/35"
+                    },
+                    "book": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/35"
+                    },
+                    "category": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/35/category"
+                    }
+                }
+            },
+            {
+                "id": "45",
+                "sku": "webdevelopment-104",
+                "name": "Flutter in Action",
+                "description": "In 2017, consumers downloaded 178 billion apps, and analysts predict growth to 258 billion by 2022. Mobile customers are demanding more-and better-apps",
+                "unitPrice": 1000.00,
+                "imageUrl": "assets/images/webdevelopment/webdevelopment-104.jpg",
+                "active": true,
+                "unitsInStock": 100,
+                "createdOn": "2021-12-01T19:40:15.000+00:00",
+                "updatedOn": "2021-12-01T19:40:15.000+00:00",
+                "_links": {
+                    "self": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/45"
+                    },
+                    "book": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/45"
+                    },
+                    "category": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/45/category"
+                    }
+                }
+            },
+            {
+                "id": "55",
+                "sku": "webdevelopment-105",
+                "name": "RabbitMQ in Depth",
+                "description": "RabbitMQ in Depth is a practical guide to building and maintaining message-based applications. This book provides detailed",
+                "unitPrice": 500.00,
+                "imageUrl": "assets/images/webdevelopment/webdevelopment-105.jpg",
+                "active": true,
+                "unitsInStock": 100,
+                "createdOn": "2021-12-01T19:40:16.000+00:00",
+                "updatedOn": "2021-12-01T19:40:15.000+00:00",
+                "_links": {
+                    "self": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/55"
+                    },
+                    "book": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/55"
+                    },
+                    "category": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/55/category"
+                    }
+                }
+            },
+            {
+                "id": "65",
+                "sku": "webdevelopment-106",
+                "name": "Beginning Git and GitHub",
+                "description": "Learn the fundamentals of version control through step-by-step tutorials that will teach you the ins-and-outs of Git. This book is your complete guide to",
+                "unitPrice": 600.00,
+                "imageUrl": "assets/images/webdevelopment/webdevelopment-106.jpg",
+                "active": true,
+                "unitsInStock": 100,
+                "createdOn": "2021-12-01T19:40:16.000+00:00",
+                "updatedOn": "2021-12-01T19:40:15.000+00:00",
+                "_links": {
+                    "self": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/65"
+                    },
+                    "book": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/65"
+                    },
+                    "category": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/65/category"
+                    }
+                }
+            },
+            {
+                "id": "75",
+                "sku": "webdevelopment-107",
+                "name": "Designing Microservices with Django",
+                "description": "Explore microservices using the Python-based Django framework and review the benefits and drawbacks of them. This book will examine what microservices look like",
+                "unitPrice": 700.00,
+                "imageUrl": "assets/images/webdevelopment/webdevelopment-107.jpg",
+                "active": true,
+                "unitsInStock": 100,
+                "createdOn": "2021-12-01T19:40:16.000+00:00",
+                "updatedOn": "2021-12-01T19:40:15.000+00:00",
+                "_links": {
+                    "self": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/75"
+                    },
+                    "book": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/75"
+                    },
+                    "category": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/75/category"
+                    }
+                }
+            },
+            {
+                "id": "85",
+                "sku": "webdevelopment-108",
+                "name": "Python Projects for Beginners",
+                "description": "mmerse yourself in learning Python and introductory data analytics with this book’s project-based approach. Through the structure of a ten-week coding bootcamp course",
+                "unitPrice": 800.00,
+                "imageUrl": "assets/images/webdevelopment/webdevelopment-108.jpg",
+                "active": true,
+                "unitsInStock": 100,
+                "createdOn": "2021-12-01T19:40:16.000+00:00",
+                "updatedOn": "2021-12-01T19:40:15.000+00:00",
+                "_links": {
+                    "self": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/85"
+                    },
+                    "book": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/85"
+                    },
+                    "category": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/85/category"
+                    }
+                }
+            },
+            {
+                "id": "95",
+                "sku": "webdevelopment-109",
+                "name": "Pro D3.js",
+                "description": "Go beyond the basics of D3.js to create maintainable, modular, and testable charts and to package them into a library that can be distributed as open source software",
+                "unitPrice": 900.00,
+                "imageUrl": "assets/images/webdevelopment/webdevelopment-109.jpg",
+                "active": true,
+                "unitsInStock": 100,
+                "createdOn": "2021-12-01T19:40:16.000+00:00",
+                "updatedOn": "2021-12-01T19:40:15.000+00:00",
+                "_links": {
+                    "self": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/95"
+                    },
+                    "book": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/95"
+                    },
+                    "category": {
+                        "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/95/category"
+                    }
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books/search/categoryid?id=1&page=0&size=12"
+        }
+    },
+    "page": {
+        "size": 12,
+        "totalElements": 10,
+        "totalPages": 1,
+        "number": 0
+    }
+}

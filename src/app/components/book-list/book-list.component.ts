@@ -5,7 +5,7 @@ import { ActivatedRoute } from '@angular/router';
 import { NgbPaginationConfig } from '@ng-bootstrap/ng-bootstrap';
 import { CartService } from 'src/app/services/cart.service';
 import { CartItem } from 'src/app/common/cart-item';
-
+import  data from 'src/app/common/data.json';
 @Component({
   selector: 'app-book-list',
   templateUrl: './book-grid.component.html',
@@ -32,7 +32,7 @@ constructor(private _bookService: BookService,
             }
 
   ngOnInit(): void {
-
+     this.books =data._embedded.books;
     this._activatedRoute.paramMap.subscribe(()=>{
       this.listBooks();
     })
@@ -74,6 +74,7 @@ constructor(private _bookService: BookService,
                                      this.currentPage - 1,
                                      this.pageSize)
                                      .subscribe( data => {
+
                                        this.books = data._embedded.books;
                                        this.currentPage = data.page.number + 1;
                                        this.totalRecords = data.page.totalElements;
