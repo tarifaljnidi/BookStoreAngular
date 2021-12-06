@@ -10,8 +10,8 @@ import { BookCategory } from '../common/book-category';
 })
 export class BookService {
 
-  private baseUrl = "https://bookstorebackendrestapi.herokuapp.com/api/v1/books";
-  private categoryUrl = "https://bookstorebackendrestapi.herokuapp.com/api/v1/book-category";
+  private baseUrl = "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/books";
+  private categoryUrl = "http://springbootbookstore-env.eba-3vmyfg5p.us-east-2.elasticbeanstalk.com/api/v1/book-category";
 
   constructor(private httpClient: HttpClient) { }
 
