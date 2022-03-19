@@ -10,7 +10,7 @@ import { BookCategory } from '../common/book-category';
 })
 export class BookService {
 
-  private baseUrl = "https://bookstorebackendrestapi.herokuapp.com/api/v1/books1";
+  private baseUrl = "https://bookstorebackendrestapi.herokuapp.com/api/v1/books";
   private categoryUrl = "https://bookstorebackendrestapi.herokuapp.com/api/v1/book-category";
 
   constructor(private httpClient: HttpClient) { }
